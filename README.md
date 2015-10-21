@@ -1,5 +1,4 @@
 SpreeVideo
-==========
 
 Introduction goes here.
 
