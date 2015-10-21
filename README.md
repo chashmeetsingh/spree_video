@@ -1,3 +1,5 @@
+!https://badge.fury.io/rb/spree_video.svg!:https://badge.fury.io/rb/spree_video
+
 Installation
 ------------
 
