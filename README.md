@@ -1,7 +1,3 @@
-SpreeVideo
-
-Introduction goes here.
-
 Installation
 ------------
 
