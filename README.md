@@ -4,7 +4,7 @@ Installation
 Add spree_video to your Gemfile:
 
 ```ruby
-gem 'spree_video'
+gem 'spree_video', github: 'chashmeetsingh/spree_video', branch: 'master'
 ```
 
 Bundle your dependencies and run the installation generator:
