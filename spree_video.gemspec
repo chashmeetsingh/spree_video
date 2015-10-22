@@ -1,11 +1,15 @@
+require 'rake'
+
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_video'
-  s.version     = '0.0.1'
+  s.version     = '1.0.0'
   s.summary     = 'Adds Video to Each Product'
   s.description = 'This is a gem which helps to add video to each product on spree and defaulty displays an empty image'
   s.required_ruby_version = '>= 2.0.0'
+
+  s.files = FileList['lib/*','app/*','bin/*','config/*','db/*','[A-Z]*'].to_a
 
   s.author    = 'Chashmeet Singh'
   s.email     = 'chashmeetsingh@gmail.com'
@@ -13,9 +17,9 @@ Gem::Specification.new do |s|
 
   s.require_path = 'lib'
   s.requirements << 'none'
-
+  s.homepage = 'http://rubygems.org/gems/spree_video'
   s.add_dependency 'spree_core', '~> 3.0.4'
-
+  s.license = 'MIT'
   s.add_development_dependency 'capybara', '~> 2.4'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
