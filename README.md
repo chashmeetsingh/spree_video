@@ -1,3 +1,6 @@
+<image src="https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true" width="95">
+<a href="https://badge.fury.io/rb/spree_video"><img src="https://badge.fury.io/rb/spree_video.svg" alt="Gem Version" height="18"></a>
+
 Installation
 ------------
 
