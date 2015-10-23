@@ -4,12 +4,13 @@ require 'rake'
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_video'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.summary     = 'Adds Video to Each Product'
   s.description = 'This is a gem which helps to add video to each product on spree and defaulty displays an empty image'
   s.required_ruby_version = '>= 2.0.0'
 
-  s.files = FileList['lib/*','app/*','bin/*','config/*','db/*','[A-Z]*'].to_a
+  s.files = FileList['lib/*','app/*','bin/*','config/*','db/*','[A-Z]*',
+                      'lib/spree_video/*','lib/generators/spree_video/install/*'].to_a
 
   s.author    = 'Chashmeet Singh'
   s.email     = 'chashmeetsingh@gmail.com'
