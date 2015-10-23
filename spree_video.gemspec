@@ -4,7 +4,7 @@ require 'rake'
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_video'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = 'Adds Video to Each Product'
   s.description = 'This is a gem which helps to add video to each product on spree and defaulty displays an empty image'
   s.required_ruby_version = '>= 2.0.0'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.homepage  = 'http://www.chashmeetsingh.com'
 
   s.require_path = 'lib'
-  s.requirements << 'none'
+  s.requirements << 'rails g spree_video:install'
   s.homepage = 'http://rubygems.org/gems/spree_video'
   s.add_dependency 'spree_core', '~> 3.0.4'
   s.license = 'MIT'
