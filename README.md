@@ -1,6 +1,8 @@
 <image src="https://img.shields.io/wercker/ci/wercker/docs.svg" width="95">
 <a href="https://badge.fury.io/rb/spree_video"><img src="https://badge.fury.io/rb/spree_video.svg" alt="Gem Version" height="18"></a>
 
+#This is a gem which helps to add video to each product on spree and defaulty displays an empty image.
+
 Installation
 ------------
 
