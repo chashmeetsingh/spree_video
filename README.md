@@ -1,7 +1,5 @@
 
 
-#This is a gem which helps to add video to each product on spree and defaulty displays an empty image.
-
 Installation
 ------------
 
