@@ -1,5 +1,4 @@
-<image src="https://img.shields.io/wercker/ci/wercker/docs.svg" width="95">
-<a href="https://badge.fury.io/rb/spree_video"><img src="https://badge.fury.io/rb/spree_video.svg" alt="Gem Version" height="18"></a>
+
 
 Installation
 ------------
